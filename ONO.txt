@@ -1,9 +1,13 @@
+#include<cmath>
+#include<string>
+#include<iostream>
+<<<<<<< HEAD
 #include<string>
 #include<iostream>
 #include<string>
 #include<iostream>
-#include<string>
-#include<iostream>
+=======
+>>>>>>> 7b8c3cd6a1d4467d0a0a65bd9ced6f032d8db089
 
 int main()
 {
