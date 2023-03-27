@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	setlocale(0, "russian");
+	int i ,sum = 0, kol = 0, m = 0;
+	double a[15];
+	cout<<"Введите число"<<endl;
+	cin>>m;
+	printf("Заполнение массива:\n");
+	for (i = 0; i < 15; i++)
+		cin >> a[i];
+		cout<<endl;
+	for (i = 0; i < 15; i++)
+	{
+		if ((fabs(a[i]-m) <= 0.5)) kol++;
+		if (a[i] > 0)sum += a[i];
+
+	}
+	cout<<"Сумма положительных чисел="<< sum<<endl;
+	cout<<"Количество чисел,отличающихся от заданного вами числа не более чем на 0.5= "<<kol<<endl;
+}
