@@ -19,8 +19,7 @@ float h;
             }
             count = 0;
         }
-    }
-        if (count > max)
+
         {
             max = count;
             id = i - count;
